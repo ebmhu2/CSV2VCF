@@ -2,7 +2,7 @@ import tkinter as tk
 import os
 import sys
 from tkinter import *
-from PIL import ImageTk,Image
+
 from tkinter import messagebox
 from tkinter.filedialog import askopenfile, asksaveasfile
 from converter import *
@@ -117,9 +117,9 @@ if __name__ == "__main__":
         logo_label=tk.Label(root,image=logo_img)
         logo_label.place(x=632,y=25)
         #hyperlink
-        link1 = Label(root, text="http://www.idbees7.entej.com", fg="blue", cursor="hand2")
-        link1.place(x=600,y=130)
-        link1.bind("<Button-1>", lambda e: callback("http://www.idbees7.entej.com/idbees"))
+        link1 = Label(root, text="IDBEES.COM", fg="blue", cursor="hand2")
+        link1.place(x=650,y=130)
+        link1.bind("<Button-1>", lambda e: callback("https://idbees.com"))
 
         # background_image = tk.PhotoImage(file="registrationForm.png")
         # panel1 = Label(self, image=background_image, height=500, width=500)

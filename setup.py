@@ -20,8 +20,8 @@ executables=[Executable(script="__main__.py",icon='images/vcf.ico',base=base,
 
 options={"build_exe": {
    "include_files":[os.path.join(PYTHON_INSTALL_DIR, 'DLLs',
-    'tk86t.dll'),os.path.join(PYTHON_INSTALL_DIR, 'DLLs', 'tcl86t.dll'),"images","images/vcf.ico"],
-    "excludes":["matplotlib","scipy","chromedriver","appdirs","packaging","PyQt5","cv2","django","IPython","notebook","pythonwin","wx","PIL","test","numpy","pandas"]}}
+    'tk86t.dll'),os.path.join(PYTHON_INSTALL_DIR, 'DLLs', 'tcl86t.dll'),"LICENSE","images","images/vcf.ico"],
+    "excludes":["matplotlib","scipy","chromedriver","appdirs","packaging","PyQt5","cv2","django","IPython","notebook","pythonwin","PIL","wx","test","numpy","pandas"]}}
 
             
 
@@ -30,7 +30,7 @@ setup(name="Excel to VCF",options=options,version="1.0.0",
      long_description="This program used to convert from Excel to csv utf 8 , from CSV utf 8 to VCF  and from Excel to VCF",
       author='E.Mahmoud Hussein Ahmed',
       author_email='m.hussein.esp@gmail.com',
-       data_files = [("", ["images/vcf.ico"]
+       data_files = [("", ["images/vcf.ico"],["LICENSE"]
                        )],
       
      
