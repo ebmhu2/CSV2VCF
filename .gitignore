@@ -23,6 +23,9 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+idea
+.idea/workspace.xml
+
 MANIFEST
 
 # PyInstaller
@@ -46,7 +49,7 @@ coverage.xml
 *.cover
 .hypothesis/
 .pytest_cache/
-
+.idea/
 # Translations
 *.mo
 *.pot
